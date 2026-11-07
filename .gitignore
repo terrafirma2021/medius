@@ -1,0 +1,24 @@
+# Local decompilation, analysis, scripts and downloaded toolchains.
+/tools/
+/work/
+/harness/
+/analysis/
+/.cache/
+/.ghidra/
+
+# Support scripts must not be included in the public source archive.
+*.py
+*.py[cod]
+*.ps1
+*.sh
+*.bat
+*.cmd
+*.java
+__pycache__/
+
+# Firmware inputs and Ghidra projects stay local.
+*.bin
+*.elf
+*.zip
+*.gpr
+*.rep/
